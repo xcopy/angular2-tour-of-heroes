@@ -31,14 +31,14 @@ import { HeroService } from './hero.service';
         useAsDefault: true
     },
     {
-        path: '/heroes',
-        name: 'Heroes',
-        component: HeroesComponent
-    },
-    {
         path: '/detail/:id',
         name: 'HeroDetail',
         component: HeroDetailComponent
+    },
+    {
+        path: '/heroes',
+        name: 'Heroes',
+        component: HeroesComponent
     }
 ])
 export class AppComponent {
